@@ -14,9 +14,11 @@ public class App {
     public static void main(String[] args) {
         //logger.info(System.getProperty("hoge", "default"));
         //logger.info(args[0]);
+        Fuga.log();
         addClassPath("../../config/" + args[0] + "/");
         Logger logger = LogManager.getLogger();
         logger.info("hige");
+        Fuga.log();
     }
     private static void addClassPath(String path){
         URLClassLoader loader = (URLClassLoader)ClassLoader.getSystemClassLoader();

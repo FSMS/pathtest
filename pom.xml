@@ -47,7 +47,7 @@
                             <addClasspath>true</addClasspath>
                             <classpathLayoutType>custom</classpathLayoutType>
                             <mainClass>jp.co.FSMS.App</mainClass>
-                            <customClasspathLayout>../../</customClasspathLayout>
+                            <customClasspathLayout>../../config/3/</customClasspathLayout>
                         </manifest>
                     </archive>
                 </configuration>
